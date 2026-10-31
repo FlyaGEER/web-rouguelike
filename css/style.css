@@ -1,0 +1,26 @@
+body{margin:0;background:#050409;color:#c9c3e0;font:14px "Courier New",monospace}
+#wrap{display:flex;gap:12px;padding:10px;justify-content:center;flex-wrap:wrap}
+#c{max-width:100%;border:1px solid #2a2342;box-shadow:0 0 40px #3b1f6e55;image-rendering:pixelated}
+aside{width:260px}h1{margin:0;letter-spacing:8px;color:#ff9d4d;text-shadow:0 0 14px #ff6a00}
+h3{margin:12px 0 4px;color:#8a7fc0;font-size:12px;text-transform:uppercase}
+h3 small{text-transform:none;color:#5d5485;font-size:10px}
+.bar{position:relative;height:18px;background:#1a1426;border:1px solid #3a2f5c;margin-top:4px}
+.bar i{position:absolute;left:0;top:0;height:100%}
+#hpbar{background:linear-gradient(#ff4d6d,#a01530);transition:width .15s}
+#ghost{background:#ffd9a0;transition:width .6s ease-out}
+.bar.low #hpbar{animation:pulse .5s infinite alternate}
+@keyframes pulse{to{filter:brightness(1.8)}}
+.bar span{position:absolute;inset:0;text-align:center;line-height:18px;font-size:12px;text-shadow:0 0 3px #000}
+.bar.xp{height:6px}#xpbar{background:linear-gradient(#6ad1ff,#3a6fc0);transition:width .3s}
+#stats{margin:6px 0;font-size:12px;line-height:1.5}
+#mini{width:240px;height:144px;border:1px solid #2a2342;image-rendering:pixelated}
+#inv{display:grid;grid-template-columns:repeat(3,52px);gap:4px}
+.slot{position:relative;width:52px;height:52px;background:#120e1d;border:1px solid #3a2f5c;display:flex;align-items:center;justify-content:center}
+.slot[data-i]{cursor:pointer}.slot[data-i]:hover{border-color:#ff9d4d;background:#1d1530}
+.slot img,.eq img{width:36px;height:36px;image-rendering:pixelated}
+.slot b{position:absolute;left:3px;top:1px;font-size:10px;color:#8a7fc0}
+.eq{display:flex;align-items:center;gap:6px;font-size:12px;margin:2px 0}.eq img{width:22px;height:22px}
+.slotempty{display:inline-block;width:22px;height:22px}
+#log{height:190px;overflow:hidden;font-size:12px;line-height:1.4}
+.help{color:#6a6190;font-size:11px}
+#tip{position:fixed;display:none;pointer-events:none;background:#0e0a18f0;border:1px solid #ff9d4d;padding:6px 9px;font-size:12px;max-width:230px;z-index:9;box-shadow:0 0 14px #000}
