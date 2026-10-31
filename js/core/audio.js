@@ -44,6 +44,7 @@ G.Sound = (() => {
   };
   return {
     init, play: n => FX[n] && FX[n](),
+    ctx: () => ac, out: () => master,
     toggle: () => { on = !on; if (master) master.gain.value = on ? .25 : 0; return on; },
   };
 })();
