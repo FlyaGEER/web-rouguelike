@@ -25,4 +25,4 @@ G.Shop = (() => {
   };
   document.addEventListener('click', e => { const r = e.target.closest('#shop .row'); if (r) api.buy(+r.dataset.i); });
   return api;
-})();
+})();ы

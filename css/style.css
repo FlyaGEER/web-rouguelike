@@ -22,6 +22,7 @@ h3 small{text-transform:none;color:#5d5485;font-size:10px}
 .eq{display:flex;align-items:center;gap:6px;font-size:12px;margin:2px 0}.eq img{width:22px;height:22px}
 .slotempty{display:inline-block;width:22px;height:22px}
 #log{height:190px;overflow:hidden;font-size:12px;line-height:1.4}
+#scores{font-size:12px;line-height:1.5}
 .help{color:#6a6190;font-size:11px}
 #tip{position:fixed;display:none;pointer-events:none;background:#0e0a18f0;border:1px solid #ff9d4d;padding:6px 9px;font-size:12px;max-width:230px;z-index:9;box-shadow:0 0 14px #000}
 #shop{display:none;position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:340px;background:#0e0a18f5;border:2px solid #ffd34d;padding:14px;z-index:20;box-shadow:0 0 40px #000}
@@ -29,4 +30,3 @@ h3 small{text-transform:none;color:#5d5485;font-size:10px}
 #shop .row{display:flex;align-items:center;gap:8px;padding:6px;border:1px solid #3a2f5c;margin:4px 0;cursor:pointer}
 #shop .row:hover{border-color:#ffd34d;background:#1d1530}#shop .row.poor{opacity:.45}
 #shop img{width:32px;height:32px;image-rendering:pixelated}#shop .row span{flex:1}#shop em{font-style:normal;color:#ffd34d}
-#scores{font-size:12px;line-height:1.5}
